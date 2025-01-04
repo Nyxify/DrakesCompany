@@ -11,6 +11,7 @@ using HarmonyLib;
 namespace DrakesCompany {
     
     [BepInPlugin(ModID, ModName, ModVersion)]
+    [BepInDependency(LethalLib.Plugin.ModGUID)]
     public class DrakesCompany : BaseUnityPlugin {
         
         private const string ModID = "com.github.Nyxify.DrakesCompany";
